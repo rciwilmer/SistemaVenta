@@ -111,6 +111,12 @@
       <DependentUpon>Agregar_Proveedores.cs</DependentUpon>
     </Compile>
     <Compile Include="conexionbd.cs" />
+    <Compile Include="GraficosEstadiscticos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraficosEstadiscticos.Designer.cs">
+      <DependentUpon>GraficosEstadiscticos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login_Seguridad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +157,9 @@
     </Compile>
     <EmbeddedResource Include="Agregar_Clientes.resx">
       <DependentUpon>Agregar_Clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraficosEstadiscticos.resx">
+      <DependentUpon>GraficosEstadiscticos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pin_Seguridad.resx">
       <DependentUpon>Pin_Seguridad.cs</DependentUpon>
