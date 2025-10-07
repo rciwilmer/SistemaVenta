@@ -1,6 +1,8 @@
 ﻿using MySql.Data.MySqlClient;
+using MySqlConnector;
 using System;
 using System.Data.SqlClient;
+using MySqlConnection = MySql.Data.MySqlClient.MySqlConnection;
 
 namespace SistemaVenta
 {
